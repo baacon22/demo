@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="vieport" content="with=device-width, initial scale=1.0">
+    <title>ILOILO CITY LOCAL HOUSING OFFICE</title>
+    <link rel="shortcut icon" type="image-xicon" href="images/iclho_cropped.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=Open Sans">
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/iclho_cropped.png" ></a>
+            <div class="nav-links" id="navcodes">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="program.html">PROGRAM</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="unhide()"></i>
+            <div class="logo2">
+                <a href="index.html"><img src="images/city_hall_cropped.png" ></a>
+            </div>
+        </nav>
+    <h1>Contact Us</h1>
+    </section>
+
+<!-- ---------------------- Contact Content ---------------------- -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2331.1624400436044!2d122.57169062390517!3d10.693366280363376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee57b1c155555%3A0x3dde7a477ab438e0!2sIloilo%20City%20Hall!5e0!3m2!1sen!2sph!4v1718630471184!5m2!1sen!2sph" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+</section>
+
+<section class="con-table">
+    <div>
+       <i class="fa fa-map-marker"></i>
+       <h5>5th Floor, Iloilo City Hall</h5>
+       <p>De la Rama St., City Proper</p>
+       <p>Iloilo City, 5000</p>
+    </div>
+    <div>
+        <i class="fa fa-phone"></i>
+        <h5>(003) 337-2059 or 0966-057-0499</h5>
+        <p>Open Monday to Friday, 8am to 5pm</p>
+    </div>
+    <div>
+        <i class="fa fa-envelope"></i>
+        <h5>iloilocitylocalhousingoffice@gmail.com</h5>
+        <p>Email us your inquiry</p>
+    </div>
+    <div>
+        <i class="fa fa-facebook-official"></i>
+        <h5>https://web.facebook.com/IloiloCityHousing</h5>
+        <p>Check us on Facebook</p>
+        <br><br><br><br><br>
+    </div>
+
+</section>
+
+<!-- ---------------------- Footer ---------------------- -->
+
+<section class="footer">
+
+    <h4> About Us </h4>
+    <p> We at the Iloilo City Local Housing Office envision Iloilo City to be a home for 
+        all empowered illonggos living in liveable, inclusive, resilient, and vibrant 
+        communities, enjoying environment-friendly spaces with provision of sustainable 
+        development programs. </p>
+    <div class="footer_icon">
+        <a href="https://web.facebook.com/IloiloCityHousing"><i class="fa fa-facebook-official"></i></a> 
+        <a href="contact.html"><i class="fa fa-map-marker"></i></a>
+        <a href="contact.html"><i class="fa fa-envelope"></i></a>
+        <a href="contact.html"><i class="fa fa-phone-square"></i></a>
+    </div>
+    <hr>
+    <p>Made by WIT CpE OJT 2024<a href="https://www.facebook.com/compeaces.wit.3"><img src="images/witlogo.png" 
+    style="width:30px; height:30px;"></a> </p>
+</section>
+
+
+
+<!-- ---------------------- Code in JavaScript for toggle in menu bar in small devices ---------------------- -->
+<script>
+    var navcodes = document.getElementById("navcodes")
+
+    function unhide(){
+        navcodes.style.right ="0";
+    }
+    function hide(){
+        navcodes.style.right ="-200px";
+    }
+    </script>
+
+</body>
+</html>

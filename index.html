@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="vieport" content="with=device-width, initial scale=1.0">
+    <title>ILOILO CITY LOCAL HOUSING OFFICE</title>
+    <link rel="shortcut icon" type="image-xicon" href="images/iclho_cropped.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=Open Sans">
+    
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/iclho_cropped.png" ></a>
+            <div class="nav-links" id="navcodes">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="program.html">PROGRAM</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="unhide()"></i>
+            <div class="logo2">
+                <a href="index.html"><img src="images/city_hall_cropped.png" ></a>
+            </div>
+        </nav>
+    <div class="title">
+        <h1>ILOILO CITY LOCAL HOUSING OFFICE</h1>
+        <p>
+            " The ILOILO CITY LOCAL HOUSING OFFICE, anchored on 
+            participatory governance and effective housing policies,
+            commits to provide access to safer, inclusive, and more
+            secured resettlements
+            that empowers ilonggos and transforms
+            spaces into a more liveable communities " 
+        </p>
+        <a href="https://web.facebook.com/IloiloCityHousing" class="followbtn">Check Out Our Facebook Page</a>
+    </div>
+    </section>
+
+<!-- ---------------------- Footer ---------------------- -->
+
+<section class="footer">
+
+    <h4> About Us </h4>
+    <p> We at the Iloilo City Local Housing Office envision Iloilo City to be a home for 
+        all empowered illongos living in liveable, inclusive, resilient, and vibrant 
+        communities, enjoying environment-friendly spaces with provision of sustainable 
+        development programs. </p>
+    <div class="footer_icon">
+        <a href="https://web.facebook.com/IloiloCityHousing"><i class="fa fa-facebook-official"></i></a> 
+        <a href="contact.html"><i class="fa fa-map-marker"></i></a>
+        <a href="contact.html"><i class="fa fa-envelope"></i></a>
+        <a href="contact.html"><i class="fa fa-phone-square"></i></a>
+    </div>
+    <hr>
+    <p>Made by WIT CpE OJT 2024<a href="https://www.facebook.com/compeaces.wit.3"><img src="images/witlogo.png" 
+    style="width:30px; height:30px;"></a> </p>
+</section>
+
+
+
+<!-- ---------------------- Code in JavaScript for toggle in menu bar in small devices ---------------------- -->
+<script>
+    var navcodes = document.getElementById("navcodes")
+
+    function unhide(){
+        navcodes.style.right ="0";
+    }
+    function hide(){
+        navcodes.style.right ="-200px";
+    }
+    </script>
+
+</body>
+</html>
